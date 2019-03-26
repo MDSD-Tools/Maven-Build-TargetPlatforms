@@ -117,6 +117,11 @@
 											<type>target</type>
 											<classifier>eclipse-modeling-photon-0</classifier>
 										</artifact>
+										<artifact>
+											<file>targetPlatforms/eclipse-modeling-2018-09.target</file>
+											<type>target</type>
+											<classifier>eclipse-modeling-2018-09</classifier>
+										</artifact>
 									</artifacts>
 								</configuration>
 							</execution>
