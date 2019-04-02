@@ -122,6 +122,11 @@
 											<type>target</type>
 											<classifier>eclipse-modeling-2018-09</classifier>
 										</artifact>
+										<artifact>
+											<file>targetPlatforms/eclipse-modeling-2019-03.target</file>
+											<type>target</type>
+											<classifier>eclipse-modeling-2019-03</classifier>
+										</artifact>
 									</artifacts>
 								</configuration>
 							</execution>
