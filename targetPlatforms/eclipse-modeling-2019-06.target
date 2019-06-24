@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<?pde version="3.8"?><target name="Eclipse Modeling 2019-06">
+  <locations>
+    <location includeAllPlatforms="false" includeConfigurePhase="true" includeMode="planner" includeSource="false" type="InstallableUnit">
+      <repository location="http://download.eclipse.org/releases/2019-06/201906191000"/>
+      <unit id="org.eclipse.platform.feature.group" version="4.12.0.v20190605-1801"/>
+      <unit id="org.eclipse.epp.mpc.feature.group" version="1.7.7.v20190521-1752"/>
+      <unit id="org.eclipse.e4.core.tools.feature.feature.group" version="4.12.0.v20190505-1221"/>
+      <unit id="org.eclipse.egit.feature.group" version="5.4.0.201906121030-r"/>
+      <unit id="org.eclipse.emf.cdo.epp.feature.group" version="4.7.0.v20180530-1201"/>
+      <unit id="org.eclipse.emf.compare.ide.ui.source.feature.group" version="3.3.7.201905300200"/>
+      <unit id="org.eclipse.emf.compare.source.feature.group" version="3.3.7.201905300200"/>
+      <unit id="org.eclipse.emf.compare.diagram.sirius.source.feature.group" version="3.3.7.201905300200"/>
+      <unit id="org.eclipse.emf.compare.egit.feature.group" version="3.3.7.201905300200"/>
+      <unit id="org.eclipse.emf.ecoretools.design.feature.group" version="3.3.1.201905160933"/>
+      <unit id="org.eclipse.emf.ecp.sdk.feature.feature.group" version="1.21.0.20190603-0953"/>
+      <unit id="org.eclipse.emf.parsley.sdk.feature.group" version="1.7.0.v20190510-1252"/>
+      <unit id="org.eclipse.emf.parsley.sdk.source.feature.group" version="1.7.0.v20190510-1252"/>
+      <unit id="org.eclipse.emf.emfstore.sdk.feature.feature.group" version="1.9.0.v20170530-0703"/>
+      <unit id="org.eclipse.emf.query.sdk.feature.group" version="1.12.0.201805030653"/>
+      <unit id="org.eclipse.emf.sdk.feature.group" version="2.18.0.v20190528-0845"/>
+      <unit id="org.eclipse.emf.transaction.sdk.feature.group" version="1.12.0.201805140824"/>
+      <unit id="org.eclipse.emf.validation.sdk.feature.group" version="1.12.1.201812070911"/>
+      <unit id="org.eclipse.gef.sdk.feature.group" version="3.11.0.201606061308"/>
+      <unit id="org.eclipse.gmf.runtime.sdk.feature.group" version="1.12.1.201905141505"/>
+      <unit id="org.eclipse.jdt.feature.group" version="3.18.0.v20190605-1800"/>
+      <unit id="org.eclipse.mylyn.bugzilla_feature.feature.group" version="3.24.2.v20180905-0003"/>
+      <unit id="org.eclipse.mylyn.context_feature.feature.group" version="3.24.2.v20180905-0014"/>
+      <unit id="org.eclipse.mylyn_feature.feature.group" version="3.24.2.v20180905-0003"/>
+      <unit id="org.eclipse.mylyn.ide_feature.feature.group" version="3.24.2.v20180905-0014"/>
+      <unit id="org.eclipse.mylyn.java_feature.feature.group" version="3.24.2.v20180905-0014"/>
+      <unit id="org.eclipse.mylyn.pde_feature.feature.group" version="3.24.2.v20180905-0014"/>
+      <unit id="org.eclipse.mylyn.wikitext_feature.feature.group" version="3.0.29.201812180023"/>
+      <unit id="org.eclipse.ocl.all.sdk.feature.group" version="5.9.0.v20190603-1146"/>
+      <unit id="org.eclipse.pde.feature.group" version="3.14.0.v20190605-1800"/>
+      <unit id="org.eclipse.sdk.feature.group" version="4.12.0.v20190605-1801"/>
+      <unit id="org.eclipse.uml2.sdk.feature.group" version="5.5.0.v20181203-1331"/>
+      <unit id="org.eclipse.xsd.sdk.feature.group" version="2.18.0.v20190323-1100"/>
+      <unit id="org.eclipse.tips.feature.feature.group" version="0.2.500.v20190402-1511"/>
+      <unit id="org.eclipse.emf.mwe2.launcher.feature.group" version="2.10.0"/>
+    </location>
+    <location includeAllPlatforms="false" includeConfigurePhase="true" includeMode="planner" includeSource="false" type="InstallableUnit">
+      <repository location="https://download.eclipse.org/tools/orbit/downloads/drops/R20190602212107/repository/"/>
+      <unit id="javax.xml.bind" version="2.2.0.v201105210648"/>
+    </location>
+    <location includeAllPlatforms="false" includeConfigurePhase="true" includeMode="planner" includeSource="false" type="InstallableUnit">
+      <repository location="https://sdqweb.ipd.kit.edu/eclipse/mdsdtools/ecoreworkflow/releases/"/>
+      <unit id="tools.mdsd.ecoreworkflow.mwe2lib.feature.feature.group" version="0.1.0.201904021150"/>
+    </location>
+  </locations>
+</target>
