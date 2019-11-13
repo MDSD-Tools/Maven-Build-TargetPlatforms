@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<?pde version="3.8"?><target name="Eclipse Modeling 2019-09">
+  <locations>
+    <location includeAllPlatforms="false" includeConfigurePhase="true" includeMode="planner" includeSource="false" type="InstallableUnit">
+      <repository location="http://download.eclipse.org/releases/2019-09/201909181001"/>
+      <unit id="org.eclipse.platform.feature.group" version="4.13.0.v20190916-1323"/>
+      <unit id="org.eclipse.epp.mpc.feature.group" version="1.8.0.v20190725-1807"/>
+      <unit id="org.eclipse.e4.core.tools.feature.feature.group" version="4.13.0.v20190710-1453"/>
+      <unit id="org.eclipse.egit.feature.group" version="5.5.0.201909110433-r"/>
+      <unit id="org.eclipse.emf.cdo.epp.feature.group" version="4.7.0.v20180530-1201"/>
+      <unit id="org.eclipse.emf.compare.ide.ui.feature.group" version="3.3.8.201909101346"/>
+      <unit id="org.eclipse.emf.compare.feature.group" version="3.3.8.201909101346"/>
+      <unit id="org.eclipse.emf.compare.diagram.sirius.feature.group" version="3.3.8.201909101346"/>
+      <unit id="org.eclipse.emf.compare.egit.feature.group" version="3.3.8.201909101346"/>
+      <unit id="org.eclipse.emf.ecoretools.design.feature.group" version="3.3.1.201905160933"/>
+      <unit id="org.eclipse.emf.ecp.emfforms.sdk.feature.feature.group" version="1.22.0.20190903-1057"/>
+      <unit id="org.eclipse.emf.parsley.sdk.feature.group" version="1.8.0.v20190715-0935"/>
+      <unit id="org.eclipse.emf.query.sdk.feature.group" version="1.12.0.201805030653"/>
+      <unit id="org.eclipse.emf.sdk.feature.group" version="2.19.0.v20190824-1315"/>
+      <unit id="org.eclipse.emf.transaction.sdk.feature.group" version="1.12.0.201805140824"/>
+      <unit id="org.eclipse.emf.validation.sdk.feature.group" version="1.12.1.201812070911"/>
+      <unit id="org.eclipse.gef.sdk.feature.group" version="3.11.0.201606061308"/>
+      <unit id="org.eclipse.gmf.runtime.sdk.feature.group" version="1.12.1.201905141505"/>
+      <unit id="org.eclipse.jdt.feature.group" version="3.18.100.v20190916-1045"/>
+      <unit id="org.eclipse.mylyn.bugzilla_feature.feature.group" version="3.24.2.v20180905-0003"/>
+      <unit id="org.eclipse.mylyn.context_feature.feature.group" version="3.24.2.v20180905-0014"/>
+      <unit id="org.eclipse.mylyn_feature.feature.group" version="3.24.2.v20180905-0003"/>
+      <unit id="org.eclipse.mylyn.ide_feature.feature.group" version="3.24.2.v20180905-0014"/>
+      <unit id="org.eclipse.mylyn.java_feature.feature.group" version="3.24.2.v20180905-0014"/>
+      <unit id="org.eclipse.mylyn.pde_feature.feature.group" version="3.24.2.v20180905-0014"/>
+      <unit id="org.eclipse.mylyn.wikitext_feature.feature.group" version="3.0.33.201907111840"/>
+      <unit id="org.eclipse.ocl.all.sdk.feature.group" version="5.10.0.v20190910-0937"/>
+      <unit id="org.eclipse.pde.feature.group" version="3.14.100.v20190916-1045"/>
+      <unit id="org.eclipse.sdk.feature.group" version="4.13.0.v20190916-1323"/>
+      <unit id="org.eclipse.uml2.sdk.feature.group" version="5.5.0.v20181203-1331"/>
+      <unit id="org.eclipse.xsd.sdk.feature.group" version="2.19.0.v20190625-1132"/>
+      <unit id="org.eclipse.tips.feature.feature.group" version="0.2.600.v20190705-1046"/>
+    </location>
+    <location includeAllPlatforms="false" includeConfigurePhase="true" includeMode="planner" includeSource="false" type="InstallableUnit">
+      <repository location="http://download.eclipse.org/tools/orbit/downloads/drops/R20190827152740/repository/"/>
+      <unit id="javax.xml.bind" version="2.2.0.v201105210648"/>
+    </location>
+    <location includeAllPlatforms="false" includeConfigurePhase="true" includeMode="planner" includeSource="false" type="InstallableUnit">
+      <repository location="https://updatesite.mdsd.tools/ecore-workflow/releases/0.1.0/"/>
+      <unit id="tools.mdsd.ecoreworkflow.mwe2lib.feature.feature.group" version="0.1.0.201907111715"/>
+    </location>
+  </locations>
+</target>
