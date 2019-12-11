@@ -14,7 +14,7 @@
       <unit id="org.eclipse.emf.compare.egit.feature.group" version="3.3.8.201909101346"/>
       <unit id="org.eclipse.emf.ecoretools.design.feature.group" version="3.3.1.201905160933"/>
       <unit id="org.eclipse.emf.ecp.emfforms.sdk.feature.feature.group" version="1.22.0.20190903-1057"/>
-	  <unit id="org.eclipse.emf.mwe2.launcher.feature.group" version="2.11.0.201906111547"/>
+      <unit id="org.eclipse.emf.mwe2.launcher.feature.group" version="2.11.0.201906111547"/>
       <unit id="org.eclipse.emf.parsley.sdk.feature.group" version="1.8.0.v20190715-0935"/>
       <unit id="org.eclipse.emf.query.sdk.feature.group" version="1.12.0.201805030653"/>
       <unit id="org.eclipse.emf.sdk.feature.group" version="2.19.0.v20190824-1315"/>
