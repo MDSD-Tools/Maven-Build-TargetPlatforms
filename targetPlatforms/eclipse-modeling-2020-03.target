@@ -8,8 +8,8 @@
       <unit id="org.eclipse.e4.core.tools.feature.feature.group" version="4.15.0.v20200217-1230"/>
       <unit id="org.eclipse.egit.feature.group" version="5.7.0.202003110725-r"/>
       <unit id="org.eclipse.emf.cdo.epp.feature.group" version="4.9.0.v20200311-1912"/>
-      <unit id="org.eclipse.emf.compare.ide.ui.source.feature.group" version="4.4.3.202003070301"/>
-      <unit id="org.eclipse.emf.compare.source.feature.group" version="3.5.3.202003070301"/>
+      <unit id="org.eclipse.emf.compare.ide.ui.source.feature.group" version="3.3.10.202003070301"/>
+      <unit id="org.eclipse.emf.compare.source.feature.group" version="3.3.10.202003070301"/>
       <unit id="org.eclipse.emf.compare.diagram.sirius.source.feature.group" version="3.3.10.202003070301"/>
       <unit id="org.eclipse.emf.compare.egit.feature.group" version="3.3.10.202003070301"/>
       <unit id="org.eclipse.emf.ecoretools.design.feature.group" version="3.3.2.201909230743"/>
@@ -45,4 +45,5 @@
       <repository location="https://updatesite.mdsd.tools/ecore-workflow/releases/0.1.0/"/>
       <unit id="tools.mdsd.ecoreworkflow.mwe2lib.feature.feature.group" version="0.1.0.201907111715"/>
     </location>
+  </locations>
 </target>
