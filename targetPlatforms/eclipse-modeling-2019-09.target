@@ -42,8 +42,8 @@
       <unit id="javax.xml.bind" version="2.2.0.v201105210648"/>
     </location>
     <location includeAllPlatforms="false" includeConfigurePhase="true" includeMode="planner" includeSource="false" type="InstallableUnit">
-      <repository location="https://updatesite.mdsd.tools/ecore-workflow/releases/0.1.0/"/>
-      <unit id="tools.mdsd.ecoreworkflow.mwe2lib.feature.feature.group" version="0.1.0.201907111715"/>
+      <repository location="https://updatesite.mdsd.tools/ecore-workflow/releases/0.1.1/"/>
+      <unit id="tools.mdsd.ecoreworkflow.mwe2lib.feature.feature.group" version="0.1.1.202006081152"/>
     </location>
   </locations>
 </target>
