@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<?pde version="3.8"?><target name="Eclipse Modeling 2020-06">
+  <locations>
+    <location includeAllPlatforms="false" includeConfigurePhase="true" includeMode="planner" includeSource="false" type="InstallableUnit">
+      <repository location="http://download.eclipse.org/releases/2020-06/202006171000"/>
+      <unit id="org.eclipse.platform.feature.group" version="4.16.0.v20200604-0951"/>
+      <unit id="org.eclipse.epp.mpc.feature.group" version="1.8.3.v20200526-1554"/>
+      <unit id="org.eclipse.e4.core.tools.feature.feature.group" version="4.16.0.v20200522-1402"/>
+      <unit id="org.eclipse.egit.feature.group" version="5.8.0.202006091008-r"/>
+      <unit id="org.eclipse.emf.cdo.epp.feature.group" version="4.10.0.v20200610-0352"/>
+      <unit id="org.eclipse.emf.compare.ide.ui.source.feature.group" version="3.3.11.202005260905"/>
+      <unit id="org.eclipse.emf.compare.source.feature.group" version="3.3.11.202005260905"/>
+      <unit id="org.eclipse.emf.compare.diagram.sirius.source.feature.group" version="3.3.11.202005260905"/>
+      <unit id="org.eclipse.emf.compare.egit.feature.group" version="3.3.11.202005260905"/>
+      <unit id="org.eclipse.emf.ecoretools.design.feature.group" version="3.3.2.201909230743"/>
+      <unit id="org.eclipse.emf.ecp.emfforms.sdk.feature.feature.group" version="1.24.0.20200303-1319"/>
+      <unit id="org.eclipse.emf.parsley.sdk.feature.group" version="1.11.0.v20200424-1436"/>
+      <unit id="org.eclipse.emf.parsley.sdk.source.feature.group" version="1.11.0.v20200424-1436"/>
+      <unit id="org.eclipse.emf.query.sdk.feature.group" version="1.12.0.201805030653"/>
+      <unit id="org.eclipse.emf.sdk.feature.group" version="2.22.0.v20200519-1135"/>
+      <unit id="org.eclipse.emf.transaction.sdk.feature.group" version="1.12.0.201805140824"/>
+      <unit id="org.eclipse.emf.validation.sdk.feature.group" version="1.12.1.201812070911"/>
+      <unit id="org.eclipse.gef.sdk.feature.group" version="3.11.0.201606061308"/>
+      <unit id="org.eclipse.gmf.runtime.sdk.feature.group" version="1.13.0.202004160913"/>
+      <unit id="org.eclipse.jdt.feature.group" version="3.18.400.v20200604-0540"/>
+      <unit id="org.eclipse.mylyn.wikitext_feature.feature.group" version="3.0.36.202002070035"/>
+      <unit id="org.eclipse.ocl.all.sdk.feature.group" version="5.12.0.v20200608-1555"/>
+      <unit id="org.eclipse.pde.feature.group" version="3.14.400.v20200604-0540"/>
+      <unit id="org.eclipse.sdk.feature.group" version="4.16.0.v20200604-0951"/>
+      <unit id="org.eclipse.uml2.sdk.feature.group" version="5.5.1.v20200302-1312"/>
+      <unit id="org.eclipse.xsd.sdk.feature.group" version="2.22.0.v20200324-0723"/>
+      <unit id="org.eclipse.tips.feature.feature.group" version="0.2.1000.v20200522-1444"/>
+    </location>
+    <location includeAllPlatforms="false" includeConfigurePhase="true" includeMode="planner" includeSource="false" type="InstallableUnit">
+      <repository location="http://download.eclipse.org/tools/orbit/downloads/2020-06/"/>
+      <unit id="javax.xml.bind" version="2.2.0.v201105210648"/>
+    </location>
+    <location includeAllPlatforms="false" includeConfigurePhase="true" includeMode="planner" includeSource="false" type="InstallableUnit">
+      <repository location="https://updatesite.mdsd.tools/ecore-workflow/releases/0.1.1/"/>
+      <unit id="tools.mdsd.ecoreworkflow.mwe2lib.feature.feature.group" version="0.1.1.202006081152"/>
+    </location>
+  </locations>
+</target>
