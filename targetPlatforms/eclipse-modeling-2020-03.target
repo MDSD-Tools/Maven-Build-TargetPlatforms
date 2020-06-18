@@ -38,6 +38,10 @@
       <unit id="org.eclipse.tips.feature.feature.group" version="0.2.900.v20200303-0904"/>
     </location>
     <location includeAllPlatforms="false" includeConfigurePhase="true" includeMode="planner" includeSource="false" type="InstallableUnit">
+      <repository location="http://download.eclipse.org/releases/2020-03/202003181000/"/>
+      <unit id="org.eclipse.emf.mwe2.launcher.feature.group" version="2.11.2.v20200224-0816"/>
+    </location>
+    <location includeAllPlatforms="false" includeConfigurePhase="true" includeMode="planner" includeSource="false" type="InstallableUnit">
       <repository location="http://download.eclipse.org/tools/orbit/downloads/2020-03/"/>
       <unit id="javax.xml.bind" version="2.2.0.v201105210648"/>
     </location>
