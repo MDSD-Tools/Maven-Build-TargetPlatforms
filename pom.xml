@@ -153,6 +153,11 @@
 											<type>target</type>
 											<classifier>eclipse-modeling-2020-06</classifier>
 										</artifact>
+										<artifact>
+											<file>targetPlatforms/eclipse-modeling-2020-12.target</file>
+											<type>target</type>
+											<classifier>eclipse-modeling-2020-12</classifier>
+										</artifact>
 									</artifacts>
 								</configuration>
 							</execution>
