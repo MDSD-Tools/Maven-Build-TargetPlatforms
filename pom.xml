@@ -158,6 +158,11 @@
 											<type>target</type>
 											<classifier>eclipse-modeling-2020-12</classifier>
 										</artifact>
+										<artifact>
+											<file>targetPlatforms/eclipse-modeling-2021-09.target</file>
+											<type>target</type>
+											<classifier>eclipse-modeling-2021-09</classifier>
+										</artifact>
 									</artifacts>
 								</configuration>
 							</execution>

@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<?pde version="3.8"?><target name="Eclipse Modeling 2021-09">
+  <locations>
+  <location includeAllPlatforms="false" includeConfigurePhase="true" includeMode="planner" includeSource="false" type="InstallableUnit">
+      <repository location="https://download.eclipse.org/releases/2021-09/202109151000"/>
+      <unit id="org.eclipse.platform.feature.group" version="0.0.0"/>
+      <unit id="org.eclipse.epp.mpc.feature.group" version="0.0.0"/>
+      <unit id="org.eclipse.e4.core.tools.feature.feature.group" version="0.0.0"/>
+      <unit id="org.eclipse.egit.feature.group" version="0.0.0"/>
+      <unit id="org.eclipse.emf.cdo.epp" version="0.0.0"/>
+      <unit id="org.eclipse.emf.compare.ide.ui.source" version="0.0.0"/>
+      <unit id="org.eclipse.emf.compare.source" version="0.0.0"/>
+      <unit id="org.eclipse.emf.compare.diagram.sirius.source" version="0.0.0"/>
+      <unit id="org.eclipse.emf.compare.egit" version="0.0.0"/>
+      <unit id="org.eclipse.emf.ecoretools.design" version="0.0.0"/>
+      <unit id="org.eclipse.emf.ecp.emfforms.sdk.feature" version="0.0.0"/>
+      <unit id="org.eclipse.emf.parsley.sdk" version="0.0.0"/>
+      <unit id="org.eclipse.emf.parsley.sdk.source" version="0.0.0"/>
+      <unit id="org.eclipse.emf.query.sdk" version="0.0.0"/>
+      <unit id="org.eclipse.emf.sdk" version="0.0.0"/>
+      <unit id="org.eclipse.emf.transaction.sdk" version="0.0.0"/>
+      <unit id="org.eclipse.emf.validation.sdk" version="0.0.0"/>
+      <unit id="org.eclipse.gef.sdk" version="0.0.0"/>
+      <unit id="org.eclipse.gmf.runtime.sdk" version="0.0.0"/>
+      <unit id="org.eclipse.jdt" version="0.0.0"/>
+      <unit id="org.eclipse.mylyn.wikitext_feature" version="0.0.0"/>
+      <unit id="org.eclipse.oomph.setup" version="0.0.0"/>
+      <unit id="org.eclipse.ocl.all.sdk" version="0.0.0"/>
+      <unit id="org.eclipse.pde" version="0.0.0"/>
+      <unit id="org.eclipse.sdk" version="0.0.0"/>
+      <unit id="org.eclipse.uml2.sdk" version="0.0.0"/>
+      <unit id="org.eclipse.xsd.sdk" version="0.0.0"/>
+      <unit id="org.eclipse.tips.feature" version="0.0.0"/>
+    </location>
+    <location includeAllPlatforms="false" includeConfigurePhase="true" includeMode="planner" includeSource="false" type="InstallableUnit">
+      <repository location="http://download.eclipse.org/releases/2021-09/202109151000"/>
+      <unit id="org.eclipse.emf.mwe2.launcher.feature.group" version="0.0.0"/>
+    </location>
+    <location includeAllPlatforms="false" includeConfigurePhase="true" includeMode="planner" includeSource="false" type="InstallableUnit">
+      <repository location="http://download.eclipse.org/tools/orbit/downloads/2021-09/"/>
+      <unit id="javax.xml.bind" version="0.0.0"/>
+    </location>
+    <location includeAllPlatforms="false" includeConfigurePhase="true" includeMode="planner" includeSource="false" type="InstallableUnit">
+      <repository location="https://updatesite.mdsd.tools/ecore-workflow/releases/0.2.0/"/>
+      <unit id="tools.mdsd.ecoreworkflow.mwe2lib.feature.feature.group" version="0.0.0"/>
+    </location>
+  </locations>
+</target>
