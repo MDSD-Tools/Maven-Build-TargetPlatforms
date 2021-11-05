@@ -83,6 +83,9 @@
 					<exists>profileActivator_LocalBuild_3247</exists>
 				</file>
 			</activation>
+			<properties>
+				<tycho.version>2.5.0</tycho.version>
+			</properties>
 			<build>
 				<plugins>
 					<plugin>
@@ -167,6 +170,38 @@
 								</configuration>
 							</execution>
 						</executions>
+					</plugin>
+					<plugin>
+						<groupId>org.eclipse.tycho.extras</groupId>
+						<artifactId>target-platform-validation-plugin</artifactId>
+						<version>${tycho.version}</version>
+						<executions>
+							<execution>
+								<id>validate-targets</id>
+								<phase>validate</phase>
+								<goals>
+									<goal>validate-target-platform</goal>
+								</goals>
+							</execution>
+						</executions>
+						<configuration>
+							<checkDependencies>true</checkDependencies>
+							<checkProvisioning>true</checkProvisioning>
+							<targetFiles>
+								<targetFile>targetPlatforms/eclipse-modeling-2021-09.target</targetFile>
+								<targetFile>targetPlatforms/eclipse-modeling-2020-12.target</targetFile>
+								<targetFile>targetPlatforms/eclipse-modeling-2020-06.target</targetFile>
+								<targetFile>targetPlatforms/eclipse-modeling-2020-03.target</targetFile>
+								<targetFile>targetPlatforms/eclipse-modeling-2019-06.target</targetFile>
+								<targetFile>targetPlatforms/eclipse-modeling-2019-03.target</targetFile>
+								<targetFile>targetPlatforms/eclipse-modeling-2018-09.target</targetFile>
+								<targetFile>targetPlatforms/eclipse-modeling-photon-0.target</targetFile>
+								<targetFile>targetPlatforms/eclipse-modeling-oxygen-3.target</targetFile>
+								<targetFile>targetPlatforms/eclipse-modeling-oxygen-2.target</targetFile>
+								<targetFile>targetPlatforms/eclipse-modeling-oxygen-1.target</targetFile>
+								<targetFile>targetPlatforms/eclipse-modeling-oxygen-0.target</targetFile>
+							</targetFiles>
+						</configuration>
 					</plugin>
 				</plugins>
 			</build>
