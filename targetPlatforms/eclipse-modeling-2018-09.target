@@ -41,8 +41,8 @@
 			<repository location="http://download.eclipse.org/tools/orbit/downloads/drops/R20180905201904/repository"/>
 		</location>
 		<location includeAllPlatforms="false" includeConfigurePhase="true" includeMode="planner" includeSource="true" type="InstallableUnit">
-			<unit id="tools.mdsd.ecoreworkflow.mwe2lib.feature.feature.group" version="0.1.0.201904021150"/>
-			<repository location="https://sdqweb.ipd.kit.edu/eclipse/mdsdtools/ecoreworkflow/releases/"/>
+			<unit id="tools.mdsd.ecoreworkflow.mwe2lib.feature.feature.group" version="0.1.0.201907111715"/>
+			<repository location="https://updatesite.mdsd.tools/ecore-workflow/releases"/>
 		</location>
 	</locations>
 </target>
