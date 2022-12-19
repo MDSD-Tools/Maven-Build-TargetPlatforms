@@ -5,7 +5,7 @@
 	<modelVersion>4.0.0</modelVersion>
 	<groupId>tools.mdsd</groupId>
 	<artifactId>eclipse-target-platforms</artifactId>
-	<version>0.3.5-SNAPSHOT</version>
+	<version>0.3.5</version>
 
 	<name>Eclipse Target Platforms</name>
 	<description>Shared target platforms for tycho-based builds.</description>
@@ -171,6 +171,11 @@
 											<type>target</type>
 											<classifier>eclipse-modeling-2021-12</classifier>
 										</artifact>
+										<artifact>
+											<file>targetPlatforms/eclipse-modeling-2022-12.target</file>
+											<type>target</type>
+											<classifier>eclipse-modeling-2022-12</classifier>
+										</artifact>
 									</artifacts>
 								</configuration>
 							</execution>
@@ -193,6 +198,7 @@
 							<checkDependencies>true</checkDependencies>
 							<checkProvisioning>true</checkProvisioning>
 							<targetFiles>
+								<targetFile>targetPlatforms/eclipse-modeling-2022-12.target</targetFile>
 								<targetFile>targetPlatforms/eclipse-modeling-2021-12.target</targetFile>
 								<targetFile>targetPlatforms/eclipse-modeling-2021-09.target</targetFile>
 								<targetFile>targetPlatforms/eclipse-modeling-2020-12.target</targetFile>
