@@ -7,7 +7,7 @@
       <unit id="org.eclipse.epp.mpc.feature.group" version="0.0.0"/>
       <unit id="org.eclipse.e4.core.tools.feature.feature.group" version="0.0.0"/>
       <unit id="org.eclipse.egit.feature.group" version="0.0.0"/>
-      <unit id="org.eclipse.emf.cdo.epp.feature.group" version="0.0.0"/>
+      <unit id="org.eclipse.emf.cdo.sdk.feature.group" version="0.0.0"/>
       <unit id="org.eclipse.emf.compare.ide.ui.source.feature.group" version="0.0.0"/>
       <unit id="org.eclipse.emf.compare.source.feature.group" version="0.0.0"/>
       <unit id="org.eclipse.emf.compare.diagram.sirius.source.feature.group" version="0.0.0"/>
