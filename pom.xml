@@ -22,9 +22,17 @@
 	<developers>
 		<developer>
 			<name>Stephan Seifermann</name>
-			<email>seifermann@fzi.de</email>
-			<organization>FZI Research Center for Information Technology</organization>
-			<organizationUrl>http://www.fzi.de</organizationUrl>
+			<email>stephan.seifermann@kit.edu</email>
+			<name>Nicolas Boltz</name>
+			<email>boltz@kit.edu</email>
+			<organization>Karlsruhe Institute of Technology (KIT), Germany</organization>
+			<organizationUrl>http://kit.edu</organizationUrl>
+		</developer>
+		<developer>
+			<name>Larissa Schmid</name>
+			<email>schmid@kit.edu</email>
+			<organization>Karlsruhe Institute of Technology (KIT), Germany</organization>
+			<organizationUrl>http://kit.edu</organizationUrl>
 		</developer>
 	</developers>
 	
@@ -33,6 +41,22 @@
 		<developerConnection>scm:git:ssh://github.com/mdsd-tools/maven-build-targetplatforms.git</developerConnection>
 		<url>http://github.com/mdsd-tools/maven-build-targetplatforms/tree/master</url>
 	</scm>
+	
+	<build>
+		<plugins>
+			<plugin>
+				<groupId>org.sonatype.plugins</groupId>
+				<artifactId>nexus-staging-maven-plugin</artifactId>
+				<version>1.6.13</version>
+				<extensions>true</extensions>
+				<configuration>
+					<serverId>ossrh</serverId>
+					<nexusUrl>https://oss.sonatype.org/</nexusUrl>
+					<autoReleaseAfterClose>true</autoReleaseAfterClose>
+				</configuration>
+			</plugin>
+		</plugins>
+	</build>
 
 	<profiles>
 
