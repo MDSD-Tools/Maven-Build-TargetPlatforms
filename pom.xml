@@ -27,10 +27,10 @@
 			<organizationUrl>http://kit.edu</organizationUrl>
 		</developer>
 		<developer>
-			<name>Larissa Schmid</name>
-			<email>schmid@kit.edu</email>
-			<organization>Karlsruhe Institute of Technology (KIT), Germany</organization>
-			<organizationUrl>http://kit.edu</organizationUrl>
+			<name>Ralf Sieger</name>
+			<email>sieger@fzi.de</email>
+			<organization>FZI Research Center for Information Technology, Germany</organization>
+			<organizationUrl>http://www.fzi.de</organizationUrl>
 		</developer>
 	</developers>
 	
@@ -43,14 +43,15 @@
 	<build>
 		<plugins>
 			<plugin>
-				<groupId>org.sonatype.plugins</groupId>
-				<artifactId>nexus-staging-maven-plugin</artifactId>
-				<version>1.6.13</version>
+				<groupId>org.sonatype.central</groupId>
+				<artifactId>central-publishing-maven-plugin</artifactId>
+				<version>0.7.0</version>
 				<extensions>true</extensions>
 				<configuration>
-					<serverId>ossrh</serverId>
-					<nexusUrl>https://oss.sonatype.org/</nexusUrl>
-					<autoReleaseAfterClose>true</autoReleaseAfterClose>
+					<publishingServerId>central</publishingServerId>
+					<centralBaseUrl>https://central.sonatype.com</centralBaseUrl>
+					<autoPublish>true</autoPublish>
+					<waitUntil>published</waitUntil>
 				</configuration>
 			</plugin>
 		</plugins>
@@ -189,4 +190,5 @@
 		</profile>
 	</profiles>
 </project>
+
 
